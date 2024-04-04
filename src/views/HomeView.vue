@@ -109,6 +109,7 @@ function chooseRoundWinner(winnerVideo, loserVideo) {
 
   if (currentRound.value === totalRounds.value) {
     mainStore.playlist.videos = roundWinners.value;
+    roundWinners.value = [];
   }
 
   const shuffledVideos = shuffle(mainStore.playlist.videos);
