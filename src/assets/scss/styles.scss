@@ -1,0 +1,21 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+.settings-card {
+  .card-body {
+    width: 500px;
+  }
+
+  .load-btn {
+    width: 100px;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
